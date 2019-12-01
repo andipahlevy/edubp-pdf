@@ -194,7 +194,7 @@ function webViewerLoad() {
       SystemJS.import('pdfjs-web/pdf_print_service'),
     ]).then(function([app, appOptions, ...otherModules]) {
       window.PDFViewerApplication = app.PDFViewerApplication;
-	  appOptions.AppOptions.set('defaultUrl',viFile)
+	  appOptions.AppOptions.set('defaultUrl',viFile.replace('%20',' '))
       window.PDFViewerApplicationOptions = appOptions.AppOptions;
       app.PDFViewerApplication.run(config);
     });
