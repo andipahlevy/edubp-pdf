@@ -23,7 +23,7 @@
 
 <!--#if !MINIFIED -->
 	<script>
-	let viFile = '../files/Fatahillah.pdf'
+	let viFile = '../files/teskecil.pdf'
 	</script>
     <script src="viewer.js"></script>
 
