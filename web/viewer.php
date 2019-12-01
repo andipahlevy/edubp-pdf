@@ -23,7 +23,7 @@
 
 <!--#if !MINIFIED -->
 	<script>
-	let viFile = '../files/<?php echo str_replace('%20',' ', $_GET['file']) ?>'
+	let viFile = '../files/Fatahillah.pdf'
 	</script>
     <script src="viewer.js"></script>
 
